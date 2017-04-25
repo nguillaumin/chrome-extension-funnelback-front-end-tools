@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Funnelback Front-End Tools</title>
+
+    <link rel="stylesheet" href="popup.css">
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div id="funnelback-controls">
+        <p>View</p>
+        <ul id="view-switcher" class="list-inline">
+            <li><button class="view-switch" data-view="html">HTML</button></li>
+            <li><button class="view-switch" data-view="json">JSON</button></li>
+            <li><button class="view-switch" data-view="xml">XML</button></li>
+        </ul>
+
+        <hr>
+
+        <p>Profile <small id="profile-name"></small></p>
+        <ul id="profile-switcher" class="list-inline">
+            <li><button class="profile-switch" data-profile="_preview">Preview</button></li>
+            <li><button class="profile-switch" data-profile="">Live</button></li>
+            <li><button id="profile-reset">_default</button></li>
+        </ul>
+    </div>
+
+    <div id="funnelback-not-detected">
+        <p>Funnelback was not detected on this URL</p>
+    </div>
+
+  </body>
+</html>

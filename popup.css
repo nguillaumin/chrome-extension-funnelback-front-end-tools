@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    width: 250px;
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul.list-inline {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.list-inline li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#funnelback-controls .active {
+    font-weight: bold;
+}
+
+#funnelback-controls small {
+    color: grey;
+}

@@ -1,2 +1,8 @@
-# chrome-extension-funnelback-front-end-tools
-A Chrome extension to help with Funnelback front-end work
+# Funnelback Front-End Tools Chrome Extension
+
+This extension provides a few tools to help with Funnelback front-end development:
+
+* Switch views between HTML, JSON and XML
+* Switch between the live and preview profiles, and reset the profile to the `_default` one.
+
+![Screenshot](screenshot.png)
