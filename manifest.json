@@ -3,9 +3,13 @@
 
   "name": "Funnelback Front-End Tools",
   "description": "Front-End tools for Funnelback",
-  "version": "1.0",
+  "version": "1.1",
 
   "author": "Nicolas Guillaumin",
+
+  "icons": {
+    "48": "icon.png"
+  },
 
   "browser_action": {
     "default_icon": "icon.png",
