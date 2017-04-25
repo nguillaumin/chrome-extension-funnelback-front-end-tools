@@ -6,3 +6,5 @@ This extension provides a few tools to help with Funnelback front-end developmen
 * Switch between the live and preview profiles, and reset the profile to the `_default` one.
 
 ![Screenshot](screenshot.png)
+
+Install from the [Chrome Web Store](https://chrome.google.com/webstore/detail/funnelback-front-end-tool/dpjjibbiopfihcjkpfkjmpgalpidbbaj)
