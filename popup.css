@@ -2,6 +2,25 @@ body {
     text-align: center;
     width: 250px;
     font-size: 100%;
+    background-color: #232b3b;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    background-color: #e42b12;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: outset 1px #e42b12;
+}
+
+button[disabled] {
+    background-color: #e1e1e1;
+    color: #939393;
+    border: inset 1px #e1e1e1;
 }
 
 a {
@@ -24,5 +43,5 @@ ul.list-inline li {
 }
 
 #funnelback-controls small {
-    color: grey;
+    color: #939393;
 }
